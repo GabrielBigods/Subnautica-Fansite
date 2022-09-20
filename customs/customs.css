@@ -1,0 +1,34 @@
+/*fonts*/
+.bg-color{
+    background-color: darkcyan;
+}
+
+.bg-head{
+    background-color: #042649;
+}
+.fonte-head{
+    font-family:'Sub', cursive;  
+}
+.bg-home{
+    background-color: #042649EC !important;
+}
+.title-color{
+    color:#DE984C !important;
+}
+.text-color{
+    color: whitesmoke;
+}
+.title1-color{
+    color: #BCD9DB !important;
+}
+.mapasec{
+    margin: 0 !important;
+}
+footer{
+    position: absolute;
+    background-color: #042649;
+    bottom: 1;
+    width: 100%;  
+    text-align: right;
+    
+}

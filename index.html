@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subnautica</title>
+    <link rel="stylesheet" href="./customs/customs.css">
+    <style>
+      @font-face {
+        font-family:'Sub';
+        src: url('./font/DaysOne-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      body
+      {
+        font-family:Georgia, 'Sub', Times, sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: initial;
+        background-attachment: fixed;
+      }
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-color" background="./img subnautica/bgimg.jpg">
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid bg-head ">
+          <a href="#home">
+          <img src="./img subnautica/corinna-marin-peeper.jpg "class='me-2' alt="" width="30" height="24" >
+          </a>
+          <a class="navbar-brand fonte-head title-color" href="#home">Subnautica</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fonte-head title1-color" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle title1-color fonte-head" href="#criaturas" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Criaturas
+                </a>
+                <ul class="dropdown-menu bg-home ">
+                  <li><a class="dropdown-item fonte-head title1-color" href="#criaturas">Flora</a></li>
+                  <li><a class="dropdown-item fonte-head title1-color" href="#fauna">Fauna</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonte-head title1-color" href="#veiculos">Veiculos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fonte-head title1-color" href="#mapa">Mapas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle title1-color fonte-head" href="#historia" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Historia
+                </a>
+                <ul class="dropdown-menu bg-home ">
+                  <li><a class="dropdown-item fonte-head title1-color" href="#precursores">Os Precursores</a></li>
+                  <li><a class="dropdown-item fonte-head title1-color" href="#aurora">Aurora</a></li>
+                </ul>
+            </ul>
+          </div>
+        </div>
+     </nav>
+    <main class="container rounded">
+        <!-- home-->
+        <section id="home" class="mt-2 p-3 bg-home " style="margin-bottom: 1rem !important">
+          <div class="col-lg-12 col-md-12 ">
+            <div class= "rounded p-2 d-flex mb-lg-0 mb-3">
+              <img src="./img subnautica/hero.avif " class="img-fluid w-30 rounded"/>
+            </div>  
+              <div >
+                  <h1 class="title-color text-center" >Subnautica</h1>
+                  <p class="text-color">
+                    Mergulhe até as profundezas de 
+                    um mundo subaquático alienígena cheio de perigos e maravilhas.
+                    Crie equipamentos, submarinos, modifique o terreno e desafie as criaturas 
+                    para explorar os recifes de corais, 
+                    vulcões, cavernas e muito mais - tudo isso enquanto tenta sobreviver.
+                  </p>
+                  <p class="text-color">
+                    Você caiu em um mundo oceânico alienígena, e o único caminho a seguir é para baixo. 
+                    Os oceanos de Subnautica variam de recifes de corais rasos banhados pelo sol a trincheiras traiçoeiras em águas profundas, 
+                    campos de lava e rios subaquáticos bioluminescentes. Gerencie seu suprimento de oxigênio enquanto explora florestas de algas, planaltos,
+                    recifes e sistemas de cavernas sinuosas. A água está cheia de vida: parte dela é útil, boa parte é prejudicial.
+                  </p>
+              </div>          
+          </div>
+        </section>
+        <!-- criaturas-->         
+        <section id="criaturas" class="bg-home ">
+
+          <!-- flora-->
+            <div class="col-lg-12 col-md-12">             
+                <h2 class="title-color text-center">Flora</h2>
+                <div class="text-color mt-2 p-3">
+                  <p>A planta e a vida vegetal encontrada no Planeta 4546B variam muito em tamanho e aparência, desde os brilhantes Cogumelos Ácidos até a misteriosa Árvore Gigante da Enseada.
+                     Flora pode ser encontrada em todo o planeta, exceto nos Lagos de Lava (devido às suas temperaturas extremas) e na borda da cratera.
+                      A única exceção a isso são as plantas mortas encontradas na parte inferior da zona morta. Eles são formas de vida imóveis, 
+                    permanecendo ancorados em um lugar, a menos que sejam manipulados através do Canhão de Repulsão, Canhão de Propulsão, faca ou outros métodos.</p>
+                  <p>Embora a maioria dos Flora seja passiva, certas exceções podem atuar como perigos para o jogador, causando dano a eles em contato ou dentro de um 
+                    certo raio. Por exemplo, o Cogumelo Ácido liberará uma nuvem de ácido quando atingido, danificando o jogador, e a Planta Tigre atirará 
+                    espinhos no jogador. A maioria das Floras pode ser colhida, colhida ou cultivada, enquanto algumas Floras também servem como fonte de alimento e água, 
+                    bem como fonte de energia quando usadas em um biorreator.</p>
+                  <p>Algumas Faunas, como a Flutuante ou a Amebóide, podem agir como flora e, devido a equívocos comuns,
+                     são confundidas com flora, mas são apenas parasitas.</p>
+                </div>
+                <table class="table">
+                  <thead>
+                    <tr class="title1-color">
+                      <th scope="col">Nome</th>
+                      <th scope="col">Imagem</th>
+                      <th scope="col">Descrição</th>
+                      <th scope="col">Bioma</th>                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="title1-color">
+                      <th scope="row">Acid Mushroom</th>
+                      <td><a href="https://subnautica.fandom.com/wiki/Acid_Mushroom" target="_blank"><img src="./img subnautica/Acid_Mushroom-0.webp" class="img-fluid" height="80" width="80"></a></td>
+                      <td>Acid mushrooms é um cogumelo encontrado em vários biomas como safe shallows e seus arredores.</td>
+                      <td>Safe shallows</td> 
+                    </tr>
+                    <tr class="title1-color">
+                      <th scope="row">Tiger Plant</th>
+                      <td><a href="https://subnautica.fandom.com/wiki/Tiger_Plant" target="_blank"><img src="./img subnautica/Tiger_Plant_Data_Bank_Image.webp" class="img-fluid" width="80" height="80"></a></td>
+                      <td>A Tiger Plant é um tipo de flora encontrado nos grandes biomas Grassy Plateaus e Sparse Reef. </td>
+                      <td>Grassy Plateaus</td>
+                    </tr>
+                    <tr class="title1-color">
+                      <th scope="row">Menbrane Tree</th>
+                      <td><a href="https://subnautica.fandom.com/wiki/Membrain_Tree" target="_blank"><img src="./img subnautica/Membrain_Tree-0.webp" class="img-fluid" width="80" height="80"></a></td>
+                      <td>A árvore MemBrain é uma forma de vida que pertence à categoria flora. É uma das plantas dominantes no Grand Reef.</td>
+                      <td>Grand Reef</td>
+                    </tr>
+                    <tr class="title1-color">
+                      <th scope="row">Bulbo Tree</th>
+                      <td><a href="https://subnautica.fandom.com/wiki/Bulbo_Tree" target="_blank"><img src="./img subnautica/Bulbo_Tree-0.webp" class="img-fluid" width="80" height="80"></a></td>
+                      <td>Bulbo Trees são uma espécie de flora terrestre encontrada na Ilha Flutuante e na Ilha da Montanha. O jogador pode colher amostras de árvores de bulbo usando uma faca de sobrevivência.</td>
+                      <td>Mountain Island</td>
+                    </tr>
+                  </tbody>
+
+                <!--Fauna-->
+
+                </table>
+                <h2 id="fauna" class="title-color text-center">Fauna</h2>
+                <div class="text-color mt-2 p-3">
+                  <p>Fauna é o termo para animais, neste caso, os animais do Planeta 4546B. A fauna em Subnautica pode ser encontrada em todo o planeta, 
+                    desde as misteriosas profundezas das Cavernas de Cristal até as vibrantes 
+                    Safe Shallows e os poços de fogo dos Lagos de Lava.</p>
+                  <p>A fauna do Planeta 4546B vem em todas as formas e tamanhos.
+                     Variando do minúsculo Rockgrub, que mora em cavernas, ao colossal Sea Dragon Leviathan, que vomita minerais derretidos de sua boca.
+                      A Fauna no Planeta 4546B é capaz de resistir e se adaptar a vários ambientes, embora anteriormente incapaz de prosperar devido à presença da bactéria Kharaa.
+                       Certas espécies de pequena fauna podem às vezes ser vistas formando principalmente cardumes não interativos. A fauna do 4546B também tem sangue amarelo. O fato de algumas espécies do planeta serem semelhantes às espécies do planeta 
+                       Terra pode ser explicado como um simples caso de evolução convergente.</p>
+                  <p>O jogador pode escanear Fauna com o Scanner, da mesma forma que faria com Flora e objetos,
+                     permitindo visualizar informações sobre as criaturas em seu PDA.</p>
+                  <p>Em Subnautica, verificações adicionais após desbloquear a Entrada do Banco de Dados para essa espécie específica de Fauna alertam o
+                     jogador sobre se o espécime está ou não infectado com Kharaa.</p>
+                </div>
+                <table class="table">
+                  <thead>
+                    <tr class="title1-color">
+                      <th scope="col">Nome</th>
+                      <th scope="col">Imagem</th>
+                      <th scope="col">Descrição</th>
+                      <th scope="col">Bioma</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="title1-color">
+                      <th scope="row">Peeper</th>
+                      <td><a href="https://subnautica.fandom.com/wiki/Peeper" target="_blank"><img src="./img subnautica/peeperwiki.webp" class="img-fluid" height="80" width="80"></a></td>
+                      <td>O Peeper é uma espécie de fauna passiva pequena, mas rápida. Poderia ser considerado o mascote da Subnautica. 
+                        É facilmente identificado por seus grandes olhos amarelos brilhantes.</td>
+                      <td>Safe shallows</td>
+                    </tr>
+                    <tr class="title1-color">
+                      <th scope="row">Crabsquid</th>
+                      <td><a href="https://subnautica.fandom.com/wiki/Crabsquid" target="_blank"><img src="./img subnautica/Crabsquid-0.webp" class="img-fluid" width="80" height="80"></a></td>                     <td>O Crabsquid é uma espécie de fauna grande e agressiva. Pode ser encontrado na Northern Blood Kelp Zone,
+                         no Deep Grand Reef e no Lost River. </td>
+                      <td>Lost River</td>
+                    </tr>
+                    <tr class="title1-color">
+                      <th scope="row">Reaper Leviathan</th>
+                      <td> <a href="https://subnautica.fandom.com/wiki/Reaper_Leviathan" target="_blank"><img src="./img subnautica/ReaperLeviathanEncy.webp" class="img-fluid" width="80" height="80"></a></td>
+                      <td>O Reaper Leviathan é uma espécie agressiva de fauna da classe leviatã, geralmente encontrada nadando em grandes áreas abertas, como a Zona de Acidente, Dunas e Montanhas. 
+                        É a terceira maior criatura agressiva do jogo e a quinta maior no geral.</td>
+                      <td>Crash Zone</td>
+                    </tr>
+                    <tr class="title1-color">
+                      <th scope="row">Ghost Leviathan</th>
+                      <td><a href="https://subnautica.fandom.com/wiki/Ghost_Leviathan" target="_blank"><img src="./img subnautica/Fox3d-entertainment-ghost-leviathan.webp" class="img-fluid" width="80" height="80"></a></td>
+                      <td>
+                        O Ghost Leviathan é uma espécie de fauna da classe leviathan e forma adulta dos Ghost Leviathan Juveniles.
+                         É a segunda maior criatura agressiva da Subnautica</td>
+                      <td>Grand Reef</td>
+                    </tr>
+                    <tr class="title1-color">
+                      <th scope="row">Ancient Floater</th>
+                      <td><a href="https://subnautica.fandom.com/wiki/Ancient_Floater" target="_blank"><img src="./img subnautica/Ancient_Floater_PDA_Encyclopedia.webp" class="img-fluid" width="80" height="80"></a></td>
+                      <td>Os flutuadores antigos são flutuadores muito antigos encontrados presos à Ilha Flutuante e às Ilhas Subaquáticas, criando esses ambientes 
+                        únicos suspendendo as enormes massas de rocha no lugar. 
+                        </td>
+                      <td>Floating Island</td>
+                    </tr>
+                  </tbody>
+                </table>             
+            </div>
+        </section>
+        <!-- Veiculos-->
+        <section id="veiculos" class="bg-home">
+          <div class="col-lg-12 col-md-12">
+            <h2 class="title-color text-center">Veiculos</h2>
+            <div class="text-color mt-2 p-3">
+              <p>Veículos são máquinas de exploração e transporte disponíveis para o jogador após adquirir seus respectivos fragmentos e plantas.</p>
+              <p>Os veículos são criados usando o Mobile Vehicle Bay.</p>
+            </div>
+            <table class="table title1-color">
+              <thead>
+                <tr>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Imagem</th>
+                  <th scope="col">Descriçao</th>
+                  <th scope="col">Velocidade Média</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Seaglide</th>
+                  <td><a href="https://subnautica.fandom.com/wiki/Seaglide_(Subnautica)" target="_blank"><img src="./img subnautica/Seaglide_Tech_Scan.webp" class="img-fluid" width="80" height="80"></a></td>
+                  <td>O Seaglide é um veículo portátil que aumenta a velocidade máxima do usuário quando segurado. 
+                    Ele pode ser criado usando o Fabricator. O Seaglide ocupa seis slots no inventário do jogador.</td>
+                  <td>Velocidade Maxima : 39,6km/h</td>
+                </tr>
+                <tr>
+                  <th scope="row">Seamoth</th>
+                  <td><a href="https://subnautica.fandom.com/wiki/Seamoth" target="_blank"><img src="./img subnautica/Seamoth_Data_Bank_Image.webp" class="img-fluid" width="80" height="80"></a></td>
+                  <td>O Seamoth é um submersível de uma pessoa pequeno e versátil e uma espaçonave capaz de viajar em alta velocidade por distâncias 
+                    consideráveis. Possui um sistema de propulsão omnidirecional que permite movimentos laterais e verticais que aumentam gradualmente 
+                    até um máximo de 11,25 m/s em qualquer direção.</td>  
+                  <td>Velocidade Maxima: 70,1km/h</td>             
+                </tr>
+                <tr>
+                  <th scope="row">Praw Suit</th>
+                  <td ><a href="https://subnautica.fandom.com/wiki/Prawn_Suit_(Subnautica)" target="_blank"><img src="./img subnautica/Fox3d-entertainment-exo.webp" class="img-fluid" width="80" height="80"></a></td>
+                  <td>O Nano Suit Mk.III blindado à prova de pressão reativo (abbv. PRAWN Suit Mk.III) é um andador mecânico bípede,
+                     projetado para uso em ambientes de extrema pressão e gravidade zero. Um dossel de vidro esmaltado reforçado com
+                      plasteel protege o único ocupante, e a destreza é fornecida por membros hidráulicos que são capazes de golpear 
+                      com força suficiente para esmagar ossos e pulverizar rochas. Quando não estiver em uso fora da água, o veículo 
+                      assume uma posição sentada</td>
+                  <td>Velocidade Maxima: 21,6km/h </td>
+                </tr>
+                <tr>
+                  <th scope="row">Cyclops</th>
+                  <td><a href="https://subnautica.fandom.com/wiki/Cyclops" target="_blank"><img src="./img subnautica/Fox3d-entertainment-cyclops.webp" class="img-fluid" width="80" height="80"></a></td>
+                  <td>O Cyclops é um submarino controlado pelo jogador que é construído usando o Mobile Vehicle Bay. 
+                    Está equipado com um compartimento de veículo capaz de armazenar um fato de Seamoth ou Camarão e pode ser
+                     modificado com uma variedade de atualizações diferentes.</td> 
+                  <td>Velocidade Maxima: 37,8km/h</td>
+                </tr>
+                <tr>
+                  <th scope="row">RocketShip</th>
+                  <td><a href="https://subnautica.fandom.com/wiki/Neptune_Escape_Rocket" target="_blank"><img src="./img subnautica/Fox3d-entertainment-rocketship.webp" class="img-fluid" width="80" height="80"></a></td>
+                  <td>O Neptune Escape Rocket é um veículo usado para deixar o Planeta 4546B. Consiste em cinco partes construtíveis: 
+                    a Plataforma de Lançamento Neptune, o Neptune Gantry, os Neptune Ion Boosters, o Neptune Fuel Reserve e o Neptune Cockpit.
+                     A Plataforma de Lançamento Neptune pode ser construída usando o Mobile Vehicle Bay, enquanto os outros quatro componentes 
+                     são construídos na plataforma de lançamento. O jogador pode entrar depois que o Gantry, Boosters e Reserva de Combustível 
+                     forem construídos.</td> 
+                  <td>Velocidade Maxima: Desconhecida</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!--Mapa-->
+
+        <section id="mapa" class="row bg-home mapasec" >
+          <h2 class="title-color text-center">Mapas</h2>
+          <div class="col-lg-6 col-md-12">
+            <div class="d-flex p-2 mb-3">
+              <a href="https://subnautica.fandom.com/wiki/Crater_Map" target="_blank"> <img src="./img subnautica/Subnautica_Labelled_Map_Zones_and_Textures.webp" class="img-fluid float-start ms-3" width="400" height="400"></a>
+              <div class="text-color ms-4">
+                <h3>Mapa de biomas</h3>
+                  <p>Mapa usado para rastrear biomas, recursos, fauna, etc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="d-flex p-2 mb-3">
+              <img src="./img subnautica/Subnautica_Map_Surface_Leviathans_Sm.webp" class="img-fluid float-start ms-3" width="300" height="300"></a>
+              <div class="text-color ms-4">
+                <h3>Mapa de biomas</h3>
+                  <p>Mapa usado para rastrear biomas, recursos, fauna, etc.</p>
+              </div>
+            </div>
+          </div>
+        </section> 
+    
+        <!--Historia-->
+      <section id="historia" class="bg-home p-3 mt-3" style="margin-bottom: 1rem !important">
+        <h2 class="title-color text-center">Historia</h2>
+       <div class="text-color">
+        <h3 id="precursores" class="text-center">Os Precursores</h3>
+        <h5 class="">Chegada em 4546B</h5>
+        <p>Os precursores foram uma raça alienígena que existiu muitos séculos atrás. Eles visitaram muitos planetas, incluindo a Terra,
+           onde eles influenciaram a cultura humana, e provavelmente de outras civilizações. No entanto, mil anos antes do jogo começar,
+            a bactéria Khaara começou a se espalhar. Eles fizeram vários lugares para pesquisa da doença, um deles sendo no planeta 4546B,
+             o planeta onde o Subnautica se passa. Eles construíram a Usina Térmica Alien no Castelo de Lava para gerar energia, e 
+             posicionaram o Centro de Pesquisa de Doenças no Rio Perdido, onde eles poderiam pegar pedaços do esqueleto do Gargantuan 
+             Leviathan para pesquisa. Eles também construíram a Plataforma de Execução da Quarentena, caso a bactéria saísse de controle.
+              No Centro de Pesquisa de Doenças, eles começaram a pesquisar várias espécies, entre elas os Peepers, as Arraias e uma espécie 
+              extinta que é relacionada aos Biters e Tubarões da Areia. Nesse período eles também construíram santuários no Recife Esparso, 
+              na Floresta de Alga Sangrenta e nas Dunas.</p>
+        <h5>Aprisionamento da Sea Emperor</h5>
+        <p>Eventualmente, eles descobriram que os Sea Emperors tinham imunidade ao Khaara, e isso era por causa da "enzima 42". 
+          Eles capturaram uma Sea Emperor, e construíram a Unidade de Contenção Primária para aprisioná-la. Eles também construíram vários 
+          portais e tubos para levar plantas e animais para o aquário da Sea Emperor. Eles começaram a testar a enzima 42 em espécies no 
+          Centro de Pesquisa, mas descobriram que a Sea Emperor era muito velha e a sua enzima 42 era fraca. Eles então começaram a tentar 
+          extrair a enzima, e construíram o Laboratório do Rio Perdido para isso, além de estudar o Esqueleto Antigo, com esperanças de 
+          encontrar uma cura. Eles também tentaram chocar os ovos da Sea Emperor, mas como eles não conseguiam ouvir a telepatia dela, 
+          eles não tinham como saber a maneira de chocar os ovos. Eles começaram a estudar ovos de várias espécies para tentar encontrar
+           uma resposta, mas não conseguiram.</p>
+        <h5>Fim da Pesquisa</h5>
+        <p>Então, eles cometeram seu maior erro. Eles levaram um ovo de Sea Dragon para o Centro de Pesquisa, já que eles eram relacionados aos
+           Sea Emperor. No entanto, a mãe ficou enfurecida, e foi recuperar seu ovo. Ela atacou o Centro de Pesquisa, e ele acabou cedendo.
+            Os espécimes escaparam, e os precursores tiveram que eliminar todos, incluindo o Sea Dragon. No entanto, um único espécime escapou,
+             e espalhou o Khaara para o resto do planeta. Os precursores tiveram que enforçar a quarentena, fazendo a Plataforma de 
+             Execução atirar automaticamente em qualquer nave. Em um ultimo esforço, eles tentaram tirar um Sea Emperor de um ovo á força.
+              No entanto, o feto morreu. Com isso, eles pararam a pesquisa e programaram os Warpers para matar qualquer animal infectado. 
+              Então, os Percussores evacuaram para os santuários, onde suas mentes foram transferidas para computadores e seus corpos foram 
+              enterrados. O resto dos Precursores provavelmente morreu por causa do Khaara. No planeta 4546B, dois terços de toda a vida morre
+               por causa da doença. No entanto, a Sea emperor treinou Peepers para levar a Ensima 42 pelos tubos e para o resto do mundo, 
+               assim mantendo o resto das plantas e animais vivos.</p>
+        <h3 id="aurora" class="text-center">História da Aurora</h3>
+        <h5>Lançamento</h5>
+        <p>Dez anos depois da Degasi ser destruída, a corporação Altera lança a nave espacial Aurora para construir um Phasegate no 
+          braço de Adriane, mas com a missão secundária de descobrir o que realmente tinha acontecido com a Degasi, para isso eles 
+          levaram um emissário mongol chamado Jochi Khasar. Quando eles se aproximaram do planeta, não encontraram nada da Degasi, mas 
+          perceberam um pico anormal de energia: A Unidade de Execução de Quarentena.</p> 
+          <h5>Evacuação</h5>
+          <p>A Plataforma de execução atira na Aurora, comprometendo boa parte da nave e fazendo ela cair em direção ao planeta. 
+            É iniciada uma evacuação, mas a baía de Lifepods foi comprometida, e poucos conseguiram escapar da nave, com apenas 10 
+            caindo na área explorável do jogo. A nave cai no leste do mapa, e destrói completamente o bioma em que ela pousou. O barulho atraiu
+             Reapers, que foram para o bioma, acidentalmente trazendo Cave Crawlers com eles. Os Cave Crawlers entraram na nave e comeram os 
+             corpos dos mortos. Oito horas depois, o HQ da Alterra conseguiu mandar um diagrama do Foguete Netuno para o computador do capitão, 
+             mas a detonação quântica da nave fez com que eles não pudessem se comunicar depois disso.</p>      
+       </div>
+      </section>     
+    </main>  
+      <footer>
+        <div class="me-3">
+        <h3 class="title1-color">Fanpage</h3>
+        <h5 class="title-color">Subnautica</h5>
+        </div>
+      </footer>
+</body>
